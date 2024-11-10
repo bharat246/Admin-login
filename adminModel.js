@@ -15,7 +15,7 @@ const adminSchema = new mongoose.Schema({
     },
     role:{
         type:Number,
-        default: 0 // 0:Admin, 1:SalesManager, 2:Employes, 3:Hr
+        default: 0 // 0:Admin, 1:SalesManager, 2:Employees, 3:Hr
     }
 });
 
